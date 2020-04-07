@@ -1,0 +1,3 @@
+/home/xud/server/CMakeFiles/edit_cache.dir
+/home/xud/server/CMakeFiles/rebuild_cache.dir
+/home/xud/server/CMakeFiles/EchoServer.dir

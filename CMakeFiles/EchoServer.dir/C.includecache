@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/xud/server/src/EchoServer.c
+sys/socket.h
+-
+sys/epoll.h
+-
+netinet/in.h
+-
+arpa/inet.h
+-
+fcntl.h
+-
+unistd.h
+-
+stdio.h
+-
+errno.h
+-
+strings.h
+-
+string.h
+-
+time.h
+-
+netdb.h
+-
+sys/types.h
+-
+stdlib.h
+-
+
