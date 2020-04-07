@@ -1,1 +1,0 @@
-/usr/bin/cc     CMakeFiles/EchoServer.dir/src/EchoServer.c.o  -o EchoServer -rdynamic 

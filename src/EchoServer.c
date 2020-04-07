@@ -200,7 +200,7 @@ void SendData(int fd, int events, void *arg)
         len = send(fd, mpeer + ev->s_offset, strlen(mpeer) - ev->s_offset, 0);
         if(len > 0) 
         {
-            printf("send[fd=%d], [%d<->%d]%s\n", fd, len, strlen(mpeer), mpeer);
+            printf("send[fd=%d], [%d<->%ld]%s\n", fd, len, strlen(mpeer), mpeer);
             ev->s_offset += len;
             if(ev->s_offset == strlen(mpeer))
             {
